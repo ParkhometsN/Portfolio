@@ -13,6 +13,19 @@
     .sececede{
         height: 100%;
     }
+    .tt{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ojoj,
+    .descriptionprject{
+        gap: 8px;
+        flex-direction: column;
+    }
+    .prinf{
+        padding-top: 50px;
+    }
 }
 
 

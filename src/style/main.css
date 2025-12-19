@@ -154,3 +154,37 @@ button:active{
 .sececede{
     height: 200px;
 }
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+.tt{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.descriptionprject{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.wefwefwef{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.main_containerr{
+    padding-top: 200px;
+}
+.ergttrgfewd{
+    opacity: 0.5;
+    padding-top: 100px;
+}
+.ojoj{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.erwgtuytehrg{
+    width: 100%;
+}
