@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: "Inter", sans-serif;
+    padding: 24px;
+    background-color: #F1F1F1;
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+    border: 5px #BEBEBE solid;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    padding: 16px 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #E56734;
+    border: 5px #EECABC solid;
+}
+button:active{
+        background-color: #7c3b21;
+}
+.gray{
+    color: #C1C1C1;
+}
+
+.Name{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.hovercolor{
+    cursor: pointer;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.hovercolor:hover{
+    color: #E56734;
+}
+.navigaton-content{
+    display: flex;
+    justify-content:space-between;
+}
+.hero_container{
+
+    max-width: 800px;
+    margin-top: 250px;
+}
+.hero_container h1{
+    padding-bottom: 16px;
+}
+.description{
+    max-width: 900px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.postition{
+    flex-direction: column;
+    gap: 8px;
+    display: flex;
+}
+.desc{
+    display: flex;
+}
