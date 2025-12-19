@@ -1,0 +1,20 @@
+# robots.txt для портфолио Пархомец Никита
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /pages/
+
+# Запрещаем индексацию служебных файлов
+Disallow: /src/js/
+Disallow: /src/style/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Sitemap
+Sitemap: https://parkhomets.vercel.app/sitemap.xml
+
+# Crawl-delay (опционально, можно убрать если не нужно)
+Crawl-delay: 1
+
