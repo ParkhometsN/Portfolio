@@ -117,3 +117,40 @@ button:active{
 .wef{
     padding-top: 16px;
 }
+
+.containergrid{
+    padding-top: 150px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.project_item img{
+    width: 100%;
+    object-fit: cover;
+}
+.project_container{
+    width: 100%;
+}
+.sec img{
+    height: 350px;
+       object-fit: cover;
+}
+.secec img{
+    height: 200px;
+       object-fit: cover;
+}
+.contpr{
+    display: flex;
+    gap: 24px;
+}
+.titl{
+    padding-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.sececede{
+    height: 200px;
+}

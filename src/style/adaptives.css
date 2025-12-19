@@ -1,3 +1,22 @@
+@media (max-width: 1194px) {
+    .containergrid{
+        padding-top: 24px;
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contpr{
+        flex-direction: column;
+    }
+    .secec,
+    .sec,
+    .sececede{
+        height: 100%;
+    }
+}
+
+
+
 @media (max-width: 800px) {
     .postition{
         display: none;
