@@ -151,8 +151,8 @@ button:active{
     gap: 8px;
 }
 
-.sececede{
-    height: 200px;
+.sececede img{
+    height: 180px !important;
 }
 .main_container{
     display: flex;
@@ -187,4 +187,44 @@ button:active{
 }
 .erwgtuytehrg{
     width: 100%;
+}
+
+.main_containerrrrrr{
+    margin-top: 150px;
+    display: flex;
+    gap: 24px;
+}
+
+.imgcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nextproject{
+    padding-top: 100px;
+}
+.nextproject h1{
+    font-size: 60px;
+    transition: all 0.3s ease;
+}
+.nextproject h1:hover{
+    color: #E56734;
+}
+
+.titl h4{
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.project_item:hover .titl h4{
+    color: #E56734;
+}
+.ojoj a{
+    color: black;
+    transition: all 0.3s ease;
+}
+.ojoj a:hover{
+    color: #E56734;
 }

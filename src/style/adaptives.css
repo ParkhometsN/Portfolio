@@ -26,6 +26,10 @@
     .prinf{
         padding-top: 50px;
     }
+    .sec img{
+        height: 350px;
+        object-fit: cover;
+    }
 }
 
 
@@ -35,6 +39,9 @@
         display: none;
     }
     .main_container{
+        flex-direction: column;
+    }
+    .main_containerrrrrr{
         flex-direction: column;
     }
     .aside_part{
