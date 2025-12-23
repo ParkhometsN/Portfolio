@@ -27,7 +27,7 @@
         padding-top: 50px;
     }
     .sec img{
-        height: 350px;
+        height: 200px;
         object-fit: cover;
     }
 }
