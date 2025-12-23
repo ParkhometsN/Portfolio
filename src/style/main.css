@@ -228,3 +228,22 @@ button:active{
 .ojoj a:hover{
     color: #E56734;
 }
+.teg_project{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.sercler{
+    width: 6px;
+    border-radius: 50%;
+    height: 6px;
+
+}
+.teg_project{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.rt{
+    padding-top: 8px;
+}
