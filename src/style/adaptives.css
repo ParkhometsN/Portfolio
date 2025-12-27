@@ -1,6 +1,5 @@
 @media (max-width: 1194px) {
     .containergrid{
-        padding-top: 24px;
         display: grid;
         gap: 24px;
         grid-template-columns: repeat(1, 1fr);
